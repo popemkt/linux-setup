@@ -1,27 +1,400 @@
+[apps/guake/general]
+compat-delete='delete-sequence'
+display-n=0
+display-tab-names=0
+gtk-prefer-dark-theme=true
+gtk-theme-name='Adwaita'
+history-size=5000
+max-tab-name-length=100
+mouse-display=true
+open-tab-cwd=true
+prompt-on-quit=true
+quick-open-command-line='gedit %(file_path)s'
+restore-tabs-notify=true
+restore-tabs-startup=true
+save-tabs-when-changed=true
+scroll-keystroke=true
+start-at-login=false
+use-default-font=true
+use-popup=true
+use-scrollbar=true
+use-trayicon=true
+window-halignment=0
+window-height=48
+window-losefocus=true
+window-refocus=false
+window-tabbar=true
+window-width=100
+
+[apps/guake/style/background]
+transparency=90
+
+[apps/guake/style/font]
+allow-bold=true
+palette='#000000000000:#cccc00000000:#4e4e9a9a0606:#c4c4a0a00000:#34346565a4a4:#757550507b7b:#060698209a9a:#d3d3d7d7cfcf:#555557575353:#efef29292929:#8a8ae2e23434:#fcfce9e94f4f:#72729f9fcfcf:#adad7f7fa8a8:#3434e2e2e2e2:#eeeeeeeeecec:#ffffffffffff:#000000000000'
+palette-name='Tango'
+
+[ca/desrt/dconf-editor]
+saved-pathbar-path='/org/gnome/desktop/wm/preferences/auto-raise'
+saved-view='/org/gnome/desktop/wm/preferences/auto-raise'
+show-warning=false
+window-height=500
+window-is-maximized=false
+window-width=540
+
+[com/usebottles/bottles]
+startup-view='page_library'
+window-height=640
+window-width=880
+
+[desktop/ibus/general]
+preload-engines=['xkb:us::eng', 'Bamboo']
+
+[org/freedesktop/ibus/engine/m17n/vi/telex]
+lookup-table-orientation=2
+preedit-background='none'
+preedit-foreground='none'
+preedit-underline=0
+use-us-layout=false
+
+[org/gnome/Connections]
+first-run=false
+
+[org/gnome/Totem]
+active-plugins=['vimeo', 'variable-rate', 'skipto', 'screenshot', 'screensaver', 'save-file', 'rotation', 'recent', 'movie-properties', 'open-directory', 'mpris', 'autoload-subtitles', 'apple-trailers']
+subtitle-encoding='UTF-8'
+
+[org/gnome/baobab/ui]
+active-chart='rings'
+is-maximized=false
+window-size=(1517, 688)
+
+[org/gnome/boxes]
+first-run=false
+view='list-view'
+window-maximized=false
+window-position=[85, 70]
+window-size=[1720, 1440]
+
+[org/gnome/calendar]
+active-view='month'
+window-maximized=true
+window-size=(768, 600)
+
+[org/gnome/clocks]
+alarms=@aa{sv} []
+timers=[{'duration': <30>, 'name': <''>}, {'duration': <50>, 'name': <'50s'>}, {'duration': <1200>, 'name': <''>}, {'duration': <1440>, 'name': <''>}, {'duration': <300>, 'name': <''>}, {'duration': <2400>, 'name': <''>}, {'duration': <1800>, 'name': <'Call mom'>}, {'duration': <900>, 'name': <''>}, {'duration': <2700>, 'name': <''>}, {'duration': <1500>, 'name': <''>}, {'duration': <3600>, 'name': <''>}, {'duration': <900>, 'name': <''>}, {'duration': <2700>, 'name': <''>}, {'duration': <2400>, 'name': <''>}]
+world-clocks=@aa{sv} []
+
+[org/gnome/clocks/state/window]
+maximized=false
+panel-id='timer'
+size=(1037, 1139)
+
+[org/gnome/control-center]
+last-panel='keyboard'
+window-state=(980, 640, true)
+
+[org/gnome/desktop/app-folders]
+folder-children=['Utilities', 'YaST']
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/desktop/background]
+picture-options='zoom'
+picture-uri='file:///stuff/Stuff/Images/Wall/98634830_p7.png'
+picture-uri-dark='file:///stuff/Stuff/Images/Wall/98634830_p7.png'
+
+[org/gnome/desktop/datetime]
+automatic-timezone=true
+
+[org/gnome/desktop/input-sources]
+current=uint32 0
+mru-sources=[('xkb', 'us'), ('ibus', 'Unikey'), ('ibus', 'anthy')]
+sources=[('xkb', 'us'), ('ibus', 'anthy'), ('ibus', 'Unikey')]
+xkb-options=['caps:super']
+
 [org/gnome/desktop/interface]
+color-scheme='prefer-dark'
 cursor-size=31
+cursor-theme='Fluent-dark-cursors'
 document-font-name='Ubuntu 11'
 enable-animations=true
 font-antialiasing='rgba'
 font-hinting='slight'
 font-name='Ubuntu 11'
+gtk-key-theme='Default'
+gtk-theme='fluent-new-red-Dark'
+icon-theme='Fluent'
 monospace-font-name='Ubuntu Mono 10'
 show-battery-percentage=false
+text-scaling-factor=1.0
 toolkit-accessibility=false
 
-[org/gnome/desktop/datetime]
-automatic-timezone=true
+[org/gnome/desktop/notifications]
+application-children=['gnome-datetime-panel', 'org-gnome-software', 'org-freedesktop-problems-applet', 'org-gnome-evolution-alarm-notify', 'gnome-power-panel', 'jetbrains-toolbox', 'jetbrains-rider-de696fd0-9cb2-4421-ad09-8568ac42ebe5', 'com-github-hluk-copyq', 'chrome-fcihfelaaldlnndgdpikildeaibblbpm-profile-1', 'webcatalog-chatgpt', 'com-mattjakeman-extensionmanager', 'org-mozilla-thunderbird', 'org-gnome-settings', 'org-gnome-characters', 'net-hovancik-stretchly', 'net-ankiweb-anki', 'microsoft-edge-beta', 'net-lutris-lutris', 'solaar', 'anki', 'org-gnome-nautilus', 'piavpn', 'com-valvesoftware-steam', 'org-kde-ktorrent', 'info-smplayer-smplayer', 'com-heroicgameslauncher-hgl', 'net-nokyan-resources', 'appimagekit-ef7089212d5a073d3a16f138d483e51d-lm-studio', 'dev-k8slens-openlens', 'org-gnome-clocks', 'guake', 'appimagekit-d66d27fad44ca521ddf30dd0608b5317-keeweb', 'com-discordapp-discord', 'org-pulseaudio-pavucontrol', 'google-chrome', 'thorium-browser', 'org-gnome-boxes', 'org-gnome-shell-extensions-gsconnect', 'gnome-network-panel', 'rustrover-26fef78b-5fa4-45f9-872b-0dec68f57716', 'rider-66b38421-2c16-4323-894e-fdd706aa4ac3', 'org-gnome-loupe', 'docker-desktop', 'org-gnome-baobab', 'com-mattjakeman-extensionmanager-desktop', 'appimagekit-119b46044de36380437d459b40425d4f-warp', 'code-insiders', 'gnome-printers-panel', 'chrome-cinhimbnkkaeohfgghhklpknlkffjgod-profile-4', 'msedge-fcihfelaaldlnndgdpikildeaibblbpm-default', 'webcatalog-readwise', 'rog-control-center', 'jetbrains-rider-429d80c3-2c45-4136-8636-afd25bfae26f', 'microsoft-edge-dev', 'page-codeberg-jakobdev-jddesktopentryedit', 'xdg-desktop-portal-gnome', 'appimagekit-31266ed31ae8a9a53278db6c70839819-webcatalog', 'org-gnome-tweaks', 'org-gnome-shell-extensions', 'appimagekit-062bd2265a557832e0f1ae0a9d1c1f64-warp', 'appimagelaunchersettings', 'appimagekit-1fab262270566383f27077d27ea7dcec-logseq', 'webcatalog-claude', 'chrome-hcggeifnejlmamllipafdhamanebkbgk-profile-3', 'jetbrains-pycharm-9e4188af-a533-47f8-b347-382b05113113', 'appimagekit-e2eed50248db15d0670c361dc9c4164a-cursor', 'appimagekit-92e4b266449d88ca2cf42595f428cb4f-lm-studio', 'dev-warp-warp', 'appimagekit-489ebcca89e892d908df078bdb534e56-webcatalog', 'webcatalog-google-bard', 'appimagekit-af29c27b04b300147f7dabc438e8278f-lm-studio', 'code', 'appimagekit-5508e1d15ce62738250da7e00e51c1f4-cursor', 'webcatalog-custom-1714737498738', 'org-gnome-terminal', 'chatall', 'org-gnome-eog', 'appimagekit-39c22503e848377c1b9f4aa6eb9de56e-webcatalog']
+show-banners=true
 
-[org/gnome/desktop/input-sourceSs]
-current=uint32 0
-mru-sources=[('ibus', 'Unikey'), ('xkb', 'us'), ('ibus', 'anthy')]
-sources=[('xkb', 'us'), ('ibus', 'anthy'), ('ibus', 'Unikey')]
-xkb-options=['caps:super']
+[org/gnome/desktop/notifications/application/anki]
+application-id='anki.desktop'
+
+[org/gnome/desktop/notifications/application/appimagekit-062bd2265a557832e0f1ae0a9d1c1f64-warp]
+application-id='appimagekit_062bd2265a557832e0f1ae0a9d1c1f64-Warp.desktop'
+
+[org/gnome/desktop/notifications/application/appimagekit-119b46044de36380437d459b40425d4f-warp]
+application-id='appimagekit_119b46044de36380437d459b40425d4f-Warp.desktop'
+
+[org/gnome/desktop/notifications/application/appimagekit-1fab262270566383f27077d27ea7dcec-logseq]
+application-id='appimagekit_1fab262270566383f27077d27ea7dcec-Logseq.desktop'
+
+[org/gnome/desktop/notifications/application/appimagekit-31266ed31ae8a9a53278db6c70839819-webcatalog]
+application-id='appimagekit_31266ed31ae8a9a53278db6c70839819-WebCatalog.desktop'
+
+[org/gnome/desktop/notifications/application/appimagekit-39c22503e848377c1b9f4aa6eb9de56e-webcatalog]
+application-id='appimagekit_39c22503e848377c1b9f4aa6eb9de56e-WebCatalog.desktop'
+
+[org/gnome/desktop/notifications/application/appimagekit-489ebcca89e892d908df078bdb534e56-webcatalog]
+application-id='appimagekit_489ebcca89e892d908df078bdb534e56-WebCatalog.desktop'
+
+[org/gnome/desktop/notifications/application/appimagekit-5508e1d15ce62738250da7e00e51c1f4-cursor]
+application-id='appimagekit_5508e1d15ce62738250da7e00e51c1f4-Cursor.desktop'
+
+[org/gnome/desktop/notifications/application/appimagekit-92e4b266449d88ca2cf42595f428cb4f-lm-studio]
+application-id='appimagekit_92e4b266449d88ca2cf42595f428cb4f-LM_Studio.desktop'
+
+[org/gnome/desktop/notifications/application/appimagekit-af29c27b04b300147f7dabc438e8278f-lm-studio]
+application-id='appimagekit_af29c27b04b300147f7dabc438e8278f-LM_Studio.desktop'
+
+[org/gnome/desktop/notifications/application/appimagekit-d66d27fad44ca521ddf30dd0608b5317-keeweb]
+application-id='appimagekit_d66d27fad44ca521ddf30dd0608b5317-keeweb.desktop'
+
+[org/gnome/desktop/notifications/application/appimagekit-e2eed50248db15d0670c361dc9c4164a-cursor]
+application-id='appimagekit_e2eed50248db15d0670c361dc9c4164a-Cursor.desktop'
+
+[org/gnome/desktop/notifications/application/appimagekit-ef7089212d5a073d3a16f138d483e51d-lm-studio]
+application-id='appimagekit_ef7089212d5a073d3a16f138d483e51d-LM_Studio.desktop'
+
+[org/gnome/desktop/notifications/application/appimagelaunchersettings]
+application-id='appimagelaunchersettings.desktop'
+
+[org/gnome/desktop/notifications/application/chatall]
+application-id='chatall.desktop'
+
+[org/gnome/desktop/notifications/application/chrome-cinhimbnkkaeohfgghhklpknlkffjgod-profile-4]
+application-id='chrome-cinhimbnkkaeohfgghhklpknlkffjgod-Profile_4.desktop'
+
+[org/gnome/desktop/notifications/application/chrome-fcihfelaaldlnndgdpikildeaibblbpm-profile-1]
+application-id='chrome-fcihfelaaldlnndgdpikildeaibblbpm-Profile_1.desktop'
+
+[org/gnome/desktop/notifications/application/chrome-hcggeifnejlmamllipafdhamanebkbgk-profile-3]
+application-id='chrome-hcggeifnejlmamllipafdhamanebkbgk-Profile_3.desktop'
+
+[org/gnome/desktop/notifications/application/code-insiders]
+application-id='code-insiders.desktop'
+
+[org/gnome/desktop/notifications/application/code]
+application-id='code.desktop'
+
+[org/gnome/desktop/notifications/application/com-discordapp-discord]
+application-id='com.discordapp.Discord.desktop'
+
+[org/gnome/desktop/notifications/application/com-github-hluk-copyq]
+application-id='com.github.hluk.copyq.desktop'
+
+[org/gnome/desktop/notifications/application/com-heroicgameslauncher-hgl]
+application-id='com.heroicgameslauncher.hgl.desktop'
+
+[org/gnome/desktop/notifications/application/com-mattjakeman-extensionmanager-desktop]
+application-id='com.mattjakeman.ExtensionManager.desktop.desktop'
+
+[org/gnome/desktop/notifications/application/com-mattjakeman-extensionmanager]
+application-id='com.mattjakeman.ExtensionManager.desktop'
+
+[org/gnome/desktop/notifications/application/com-valvesoftware-steam]
+application-id='com.valvesoftware.Steam.desktop'
+
+[org/gnome/desktop/notifications/application/dev-k8slens-openlens]
+application-id='dev.k8slens.OpenLens.desktop'
+
+[org/gnome/desktop/notifications/application/dev-warp-warp]
+application-id='dev.warp.Warp.desktop'
+
+[org/gnome/desktop/notifications/application/docker-desktop]
+application-id='docker-desktop.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-datetime-panel]
+application-id='gnome-datetime-panel.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-network-panel]
+application-id='gnome-network-panel.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-printers-panel]
+application-id='gnome-printers-panel.desktop'
+
+[org/gnome/desktop/notifications/application/google-chrome]
+application-id='google-chrome.desktop'
+
+[org/gnome/desktop/notifications/application/guake]
+application-id='guake.desktop'
+
+[org/gnome/desktop/notifications/application/info-smplayer-smplayer]
+application-id='info.smplayer.SMPlayer.desktop'
+
+[org/gnome/desktop/notifications/application/jetbrains-pycharm-9e4188af-a533-47f8-b347-382b05113113]
+application-id='jetbrains-pycharm-9e4188af-a533-47f8-b347-382b05113113.desktop'
+
+[org/gnome/desktop/notifications/application/jetbrains-rider-429d80c3-2c45-4136-8636-afd25bfae26f]
+application-id='jetbrains-rider-429d80c3-2c45-4136-8636-afd25bfae26f.desktop'
+
+[org/gnome/desktop/notifications/application/jetbrains-rider-de696fd0-9cb2-4421-ad09-8568ac42ebe5]
+application-id='jetbrains-rider-de696fd0-9cb2-4421-ad09-8568ac42ebe5.desktop'
+
+[org/gnome/desktop/notifications/application/jetbrains-toolbox]
+application-id='jetbrains-toolbox.desktop'
+
+[org/gnome/desktop/notifications/application/microsoft-edge-beta]
+application-id='microsoft-edge-beta.desktop'
+
+[org/gnome/desktop/notifications/application/microsoft-edge-dev]
+application-id='microsoft-edge-dev.desktop'
+
+[org/gnome/desktop/notifications/application/msedge-fcihfelaaldlnndgdpikildeaibblbpm-default]
+application-id='msedge-fcihfelaaldlnndgdpikildeaibblbpm-Default.desktop'
+
+[org/gnome/desktop/notifications/application/net-ankiweb-anki]
+application-id='net.ankiweb.Anki.desktop'
+
+[org/gnome/desktop/notifications/application/net-hovancik-stretchly]
+application-id='net.hovancik.Stretchly.desktop'
+
+[org/gnome/desktop/notifications/application/net-lutris-lutris]
+application-id='net.lutris.Lutris.desktop'
+
+[org/gnome/desktop/notifications/application/net-nokyan-resources]
+application-id='net.nokyan.Resources.desktop'
+
+[org/gnome/desktop/notifications/application/org-freedesktop-problems-applet]
+application-id='org.freedesktop.problems.applet.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-baobab]
+application-id='org.gnome.baobab.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-boxes]
+application-id='org.gnome.Boxes.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-characters]
+application-id='org.gnome.Characters.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-clocks]
+application-id='org.gnome.clocks.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-eog]
+application-id='org.gnome.eog.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-evolution-alarm-notify]
+application-id='org.gnome.Evolution-alarm-notify.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-loupe]
+application-id='org.gnome.Loupe.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-settings]
+application-id='org.gnome.Settings.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-shell-extensions-gsconnect]
+application-id='org.gnome.Shell.Extensions.GSConnect.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-shell-extensions]
+application-id='org.gnome.Shell.Extensions.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-software]
+application-id='org.gnome.Software.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-terminal]
+application-id='org.gnome.Terminal.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-tweaks]
+application-id='org.gnome.tweaks.desktop'
+
+[org/gnome/desktop/notifications/application/org-kde-ktorrent]
+application-id='org.kde.ktorrent.desktop'
+
+[org/gnome/desktop/notifications/application/org-mozilla-thunderbird]
+application-id='org.mozilla.Thunderbird.desktop'
+
+[org/gnome/desktop/notifications/application/org-pulseaudio-pavucontrol]
+application-id='org.pulseaudio.pavucontrol.desktop'
+
+[org/gnome/desktop/notifications/application/page-codeberg-jakobdev-jddesktopentryedit]
+application-id='page.codeberg.JakobDev.jdDesktopEntryEdit.desktop'
+
+[org/gnome/desktop/notifications/application/piavpn]
+application-id='piavpn.desktop'
+
+[org/gnome/desktop/notifications/application/rider-66b38421-2c16-4323-894e-fdd706aa4ac3]
+application-id='Rider-66b38421-2c16-4323-894e-fdd706aa4ac3.desktop'
+
+[org/gnome/desktop/notifications/application/rog-control-center]
+application-id='rog-control-center.desktop'
+
+[org/gnome/desktop/notifications/application/rustrover-26fef78b-5fa4-45f9-872b-0dec68f57716]
+application-id='RustRover-26fef78b-5fa4-45f9-872b-0dec68f57716.desktop'
+
+[org/gnome/desktop/notifications/application/solaar]
+application-id='solaar.desktop'
+
+[org/gnome/desktop/notifications/application/thorium-browser]
+application-id='thorium-browser.desktop'
+
+[org/gnome/desktop/notifications/application/webcatalog-chatgpt]
+application-id='webcatalog-chatgpt.desktop'
+
+[org/gnome/desktop/notifications/application/webcatalog-claude]
+application-id='webcatalog-claude.desktop'
+
+[org/gnome/desktop/notifications/application/webcatalog-custom-1714737498738]
+application-id='webcatalog-custom-1714737498738.desktop'
+
+[org/gnome/desktop/notifications/application/webcatalog-google-bard]
+application-id='webcatalog-google-bard.desktop'
+
+[org/gnome/desktop/notifications/application/webcatalog-readwise]
+application-id='webcatalog-readwise.desktop'
+
+[org/gnome/desktop/notifications/application/xdg-desktop-portal-gnome]
+application-id='xdg-desktop-portal-gnome.desktop'
+
+[org/gnome/desktop/peripherals/mouse]
+accel-profile='default'
+speed=0.030303030303030276
 
 [org/gnome/desktop/peripherals/touchpad]
 send-events='enabled'
+speed=0.15909090909090917
 tap-to-click=true
 two-finger-scrolling-enabled=true
+
+[org/gnome/desktop/privacy]
+report-technical-problems=false
+
+[org/gnome/desktop/remote-desktop/rdp]
+enable=false
+tls-cert='/home/popemkt/.local/share/gnome-remote-desktop/rdp-tls.crt'
+tls-key='/home/popemkt/.local/share/gnome-remote-desktop/rdp-tls.key'
 
 [org/gnome/desktop/screensaver]
 lock-enabled=true
@@ -32,6 +405,7 @@ idle-delay=uint32 300
 [org/gnome/desktop/sound]
 allow-volume-above-100-percent=true
 event-sounds=true
+theme-name='__custom'
 
 [org/gnome/desktop/wm/keybindings]
 close=['<Shift><Control>w']
@@ -42,15 +416,140 @@ switch-windows=['<Alt>Tab']
 switch-windows-backward=['<Shift><Alt>Tab']
 
 [org/gnome/desktop/wm/preferences]
+auto-raise=true
+button-layout='appmenu:close'
 titlebar-font='Ubuntu Bold 11'
+
+[org/gnome/evince/default]
+continuous=true
+dual-page=false
+dual-page-odd-left=false
+enable-spellchecking=true
+fullscreen=false
+inverted-colors=false
+show-sidebar=true
+sidebar-page='thumbnails'
+sidebar-size=132
+sizing-mode='automatic'
+window-ratio=(0.98039215686274506, 0.75757575757575757)
+
+[org/gnome/evolution-data-server]
+migrated=true
+
+[org/gnome/evolution-data-server/calendar]
+notify-window-height=257
+notify-window-paned-position=63
+notify-window-width=200
+notify-window-x=85
+notify-window-y=70
+reminders-past=['8240689dc89e68b58961b80289f88917260d2fad\na9082652db1b45b68db4c4824136d82aa8075506\t20240529T232500\n1716999600\n1716999900\n1717001100\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Ho_Chi_Minh:20240529T232500\r\nDTEND;TZID=Asia/Ho_Chi_Minh:20240529T234500\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230622T171422Z\r\nUID:b05e6b0hl9200d854oam4k18kc@google.com\r\nCREATED:20210924T100002Z\r\nDESCRIPTION:<html-blob><a href="https:\r\n //popemkt.notion.site/Pre-sleep-180b571191ae462bbcf285fc51e2fe2a" \r\n id="ow683" __is_owner="true">Pre-Sleep Routine</a></html-blob>\r\nLAST-MODIFIED:20240525T054425Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Next day planning + recap\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:3692\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230622T171421Z\r\nX-EVOLUTION-CALDAV-ETAG:63823137262\r\nRECURRENCE-ID;TZID=Asia/Ho_Chi_Minh:20240529T232500\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:a9082652db1b45b68db4c4824136d82aa8075506\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:-PT5M\r\nACKNOWLEDGED:20240525T054425Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\t20240529\n1716994800\n1716940800\n1717027200\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240529\r\nDTEND;VALUE=DATE:20240530\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230304T055445Z\r\nUID:5tk9v79dbtjrkoeg49qiu862ih_R20220613@google.com\r\nCREATED:20210924T095658Z\r\nDESCRIPTION:Topic of the Day\r\nLAST-MODIFIED:20240525T054425Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Highlight of the day\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1033\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230304T055340Z\r\nX-EVOLUTION-CALDAV-ETAG:63813592485\r\nRECURRENCE-ID;VALUE=DATE:20240529\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT7H30M\r\nX-EVOLUTION-ALARM-UID:923f80ec9ebe913309df30379eebbc222b0144c6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:a22382df4c968d7f0156efc103343c044fdcef9d\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT12H5M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT15H\r\nACKNOWLEDGED:20240525T054425Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n76ab5f060bb0797503c3e353bc89baf37d49aeee\t20240529T213000\n1716992700\n1716993000\n1716996600\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Ho_Chi_Minh:20240529T213000\r\nDTEND;TZID=Asia/Ho_Chi_Minh:20240529T223000\r\nRRULE:FREQ=DAILY;INTERVAL=2\r\nDTSTAMP:20230308T144151Z\r\nUID:3ppmb89uhaucl97la660fqgtl0_R20220909T143000@google.com\r\nCREATED:20210925T170940Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20240516T114326Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Read Books\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:2279\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230308T144150Z\r\nX-EVOLUTION-CALDAV-ETAG:63848754767\r\nRECURRENCE-ID;TZID=Asia/Ho_Chi_Minh:20240529T213000\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:76ab5f060bb0797503c3e353bc89baf37d49aeee\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:-PT5M\r\nACKNOWLEDGED:20240516T114326Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n8b4ef32d02420d1aeda3c1cb265d397ca9c56e61\t20240529T203000\n1716989340\n1716989400\n1716990600\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Ho_Chi_Minh:20240529T203000\r\nDTEND;TZID=Asia/Ho_Chi_Minh:20240529T205000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230308T121939Z\r\nUID:\r\n 6lgmae35cco3cbb6cphjab9kcoqm2bb161i30b9lclgjap1n6hh66dr36s@google.com\r\nCREATED:20221015T050356Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20240505T005255Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Anki + RemNote\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1719\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230308T121938Z\r\nX-EVOLUTION-CALDAV-ETAG:63813961179\r\nRECURRENCE-ID;TZID=Asia/Ho_Chi_Minh:20240529T203000\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:8b4ef32d02420d1aeda3c1cb265d397ca9c56e61\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:-PT1M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\nb297c50abfe8b43323ac61159c01c5395570c2c8\t20240529T193000\n1716985740\n1716985800\n1716988500\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Ho_Chi_Minh:20240529T193000\r\nDTEND;TZID=Asia/Ho_Chi_Minh:20240529T201500\r\nRRULE:FREQ=WEEKLY;BYDAY=WE\r\nDTSTAMP:20240329T114657Z\r\nUID:1i3mktdoj01ornlhq3dsi48mph_R20220706T123000@google.com\r\nCREATED:20220613T032354Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20240329T114657Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Topic of the Day: Socio\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:13\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230308T123209Z\r\nX-EVOLUTION-CALDAV-ETAG:63847396017\r\nRECURRENCE-ID;TZID=Asia/Ho_Chi_Minh:20240529T193000\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT1M\r\nX-EVOLUTION-ALARM-UID:b297c50abfe8b43323ac61159c01c5395570c2c8\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\na22382df4c968d7f0156efc103343c044fdcef9d\t20240529\n1716984300\n1716940800\n1717027200\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240529\r\nDTEND;VALUE=DATE:20240530\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230304T055445Z\r\nUID:5tk9v79dbtjrkoeg49qiu862ih_R20220613@google.com\r\nCREATED:20210924T095658Z\r\nDESCRIPTION:Topic of the Day\r\nLAST-MODIFIED:20240525T054425Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Highlight of the day\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1033\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230304T055340Z\r\nX-EVOLUTION-CALDAV-ETAG:63813592485\r\nRECURRENCE-ID;VALUE=DATE:20240529\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT7H30M\r\nX-EVOLUTION-ALARM-UID:923f80ec9ebe913309df30379eebbc222b0144c6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:a22382df4c968d7f0156efc103343c044fdcef9d\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT12H5M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT15H\r\nACKNOWLEDGED:20240525T054425Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n923f80ec9ebe913309df30379eebbc222b0144c6\t20240529\n1716967800\n1716940800\n1717027200\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240529\r\nDTEND;VALUE=DATE:20240530\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230304T055445Z\r\nUID:5tk9v79dbtjrkoeg49qiu862ih_R20220613@google.com\r\nCREATED:20210924T095658Z\r\nDESCRIPTION:Topic of the Day\r\nLAST-MODIFIED:20240525T054425Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Highlight of the day\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1033\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230304T055340Z\r\nX-EVOLUTION-CALDAV-ETAG:63813592485\r\nRECURRENCE-ID;VALUE=DATE:20240529\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT7H30M\r\nX-EVOLUTION-ALARM-UID:923f80ec9ebe913309df30379eebbc222b0144c6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:a22382df4c968d7f0156efc103343c044fdcef9d\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT12H5M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT15H\r\nACKNOWLEDGED:20240525T054425Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n8049376f01472ecbf941615512cccd03fa4c5cec\t20240529\n1716940740\n1716940800\n1717027200\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240529\r\nDTEND;VALUE=DATE:20240530\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230411T170934Z\r\nUID:4navp4kq5ohujrrvug5p5jeq2u@google.com\r\nCREATED:20210924T095434Z\r\nDESCRIPTION:2 problems on leetcode\r\nLAST-MODIFIED:20230411T170934Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:C#\r\nTRANSP:TRANSPARENT\r\nX-MOZ-GENERATION:74\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230411T170708Z\r\nX-EVOLUTION-CALDAV-ETAG:63816916174\r\nRECURRENCE-ID;VALUE=DATE:20240529\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT1M\r\nX-EVOLUTION-ALARM-UID:8049376f01472ecbf941615512cccd03fa4c5cec\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\t20240528\n1716908400\n1716854400\n1716940800\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240528\r\nDTEND;VALUE=DATE:20240529\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230304T055445Z\r\nUID:5tk9v79dbtjrkoeg49qiu862ih_R20220613@google.com\r\nCREATED:20210924T095658Z\r\nDESCRIPTION:Topic of the Day\r\nLAST-MODIFIED:20240525T054425Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Highlight of the day\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1033\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230304T055340Z\r\nX-EVOLUTION-CALDAV-ETAG:63813592485\r\nRECURRENCE-ID;VALUE=DATE:20240528\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT7H30M\r\nX-EVOLUTION-ALARM-UID:923f80ec9ebe913309df30379eebbc222b0144c6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:a22382df4c968d7f0156efc103343c044fdcef9d\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT12H5M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT15H\r\nACKNOWLEDGED:20240525T054425Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n439e4706f3462715deba6cb12c4a1bc05cf50697\t20240528T210000\n1716904740\n1716904800\n1716906000\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Ho_Chi_Minh:20240528T210000\r\nDTEND;TZID=Asia/Ho_Chi_Minh:20240528T212000\r\nRRULE:FREQ=DAILY;INTERVAL=2\r\nDTSTAMP:20230308T121205Z\r\nUID:168dulhogir247opu30aaq9ue1@google.com\r\nCREATED:20221009T155025Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20240505T005255Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Call mom\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:27\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230308T121203Z\r\nX-EVOLUTION-CALDAV-ETAG:63813960725\r\nRECURRENCE-ID;TZID=Asia/Ho_Chi_Minh:20240528T210000\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:439e4706f3462715deba6cb12c4a1bc05cf50697\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:-PT1M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n8b4ef32d02420d1aeda3c1cb265d397ca9c56e61\t20240528T203000\n1716902940\n1716903000\n1716904200\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Ho_Chi_Minh:20240528T203000\r\nDTEND;TZID=Asia/Ho_Chi_Minh:20240528T205000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230308T121939Z\r\nUID:\r\n 6lgmae35cco3cbb6cphjab9kcoqm2bb161i30b9lclgjap1n6hh66dr36s@google.com\r\nCREATED:20221015T050356Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20240505T005255Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Anki + RemNote\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1719\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230308T121938Z\r\nX-EVOLUTION-CALDAV-ETAG:63813961179\r\nRECURRENCE-ID;TZID=Asia/Ho_Chi_Minh:20240528T203000\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:8b4ef32d02420d1aeda3c1cb265d397ca9c56e61\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:-PT1M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\na8ed745be1ba9419455d817f3b6fadd3c4be566d\t20240528T193000\n1716899340\n1716899400\n1716902100\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Ho_Chi_Minh:20240528T193000\r\nDTEND;TZID=Asia/Ho_Chi_Minh:20240528T201500\r\nEXDATE;TZID=Asia/Ho_Chi_Minh:20221213T193000\r\nRRULE:FREQ=WEEKLY;BYDAY=TU\r\nDTSTAMP:20231017T123250Z\r\nUID:57amv0jloj3c1le2k2djf7ctg2@google.com\r\nCREATED:20220613T031926Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20231017T123250Z\r\nLOCATION:\r\nSEQUENCE:2\r\nSTATUS:CONFIRMED\r\nSUMMARY:Topic of the Day: Bio\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:56\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20231017T123249Z\r\nX-EVOLUTION-CALDAV-ETAG:63833229170\r\nRECURRENCE-ID;TZID=Asia/Ho_Chi_Minh:20240528T193000\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT1M\r\nX-EVOLUTION-ALARM-UID:a8ed745be1ba9419455d817f3b6fadd3c4be566d\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\na22382df4c968d7f0156efc103343c044fdcef9d\t20240528\n1716897900\n1716854400\n1716940800\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240528\r\nDTEND;VALUE=DATE:20240529\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230304T055445Z\r\nUID:5tk9v79dbtjrkoeg49qiu862ih_R20220613@google.com\r\nCREATED:20210924T095658Z\r\nDESCRIPTION:Topic of the Day\r\nLAST-MODIFIED:20240525T054425Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Highlight of the day\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1033\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230304T055340Z\r\nX-EVOLUTION-CALDAV-ETAG:63813592485\r\nRECURRENCE-ID;VALUE=DATE:20240528\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT7H30M\r\nX-EVOLUTION-ALARM-UID:923f80ec9ebe913309df30379eebbc222b0144c6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:a22382df4c968d7f0156efc103343c044fdcef9d\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT12H5M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT15H\r\nACKNOWLEDGED:20240525T054425Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n923f80ec9ebe913309df30379eebbc222b0144c6\t20240528\n1716881400\n1716854400\n1716940800\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240528\r\nDTEND;VALUE=DATE:20240529\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230304T055445Z\r\nUID:5tk9v79dbtjrkoeg49qiu862ih_R20220613@google.com\r\nCREATED:20210924T095658Z\r\nDESCRIPTION:Topic of the Day\r\nLAST-MODIFIED:20240525T054425Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Highlight of the day\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1033\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230304T055340Z\r\nX-EVOLUTION-CALDAV-ETAG:63813592485\r\nRECURRENCE-ID;VALUE=DATE:20240528\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT7H30M\r\nX-EVOLUTION-ALARM-UID:923f80ec9ebe913309df30379eebbc222b0144c6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:a22382df4c968d7f0156efc103343c044fdcef9d\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT12H5M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT15H\r\nACKNOWLEDGED:20240525T054425Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n8049376f01472ecbf941615512cccd03fa4c5cec\t20240528\n1716854340\n1716854400\n1716940800\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240528\r\nDTEND;VALUE=DATE:20240529\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230411T170934Z\r\nUID:4navp4kq5ohujrrvug5p5jeq2u@google.com\r\nCREATED:20210924T095434Z\r\nDESCRIPTION:2 problems on leetcode\r\nLAST-MODIFIED:20230411T170934Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:C#\r\nTRANSP:TRANSPARENT\r\nX-MOZ-GENERATION:74\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230411T170708Z\r\nX-EVOLUTION-CALDAV-ETAG:63816916174\r\nRECURRENCE-ID;VALUE=DATE:20240528\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT1M\r\nX-EVOLUTION-ALARM-UID:8049376f01472ecbf941615512cccd03fa4c5cec\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\na9082652db1b45b68db4c4824136d82aa8075506\t20240527T232500\n1716826800\n1716827100\n1716828300\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Ho_Chi_Minh:20240527T232500\r\nDTEND;TZID=Asia/Ho_Chi_Minh:20240527T234500\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230622T171422Z\r\nUID:b05e6b0hl9200d854oam4k18kc@google.com\r\nCREATED:20210924T100002Z\r\nDESCRIPTION:<html-blob><a href="https:\r\n //popemkt.notion.site/Pre-sleep-180b571191ae462bbcf285fc51e2fe2a" \r\n id="ow683" __is_owner="true">Pre-Sleep Routine</a></html-blob>\r\nLAST-MODIFIED:20240525T054425Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Next day planning + recap\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:3692\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230622T171421Z\r\nX-EVOLUTION-CALDAV-ETAG:63823137262\r\nRECURRENCE-ID;TZID=Asia/Ho_Chi_Minh:20240527T232500\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:a9082652db1b45b68db4c4824136d82aa8075506\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:-PT5M\r\nACKNOWLEDGED:20240525T054425Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\t20240527\n1716822000\n1716768000\n1716854400\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240527\r\nDTEND;VALUE=DATE:20240528\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230304T055445Z\r\nUID:5tk9v79dbtjrkoeg49qiu862ih_R20220613@google.com\r\nCREATED:20210924T095658Z\r\nDESCRIPTION:Topic of the Day\r\nLAST-MODIFIED:20240525T054425Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Highlight of the day\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1033\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230304T055340Z\r\nX-EVOLUTION-CALDAV-ETAG:63813592485\r\nRECURRENCE-ID;VALUE=DATE:20240527\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT7H30M\r\nX-EVOLUTION-ALARM-UID:923f80ec9ebe913309df30379eebbc222b0144c6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:a22382df4c968d7f0156efc103343c044fdcef9d\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT12H5M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT15H\r\nACKNOWLEDGED:20240525T054425Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n76ab5f060bb0797503c3e353bc89baf37d49aeee\t20240527T213000\n1716819900\n1716820200\n1716823800\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Ho_Chi_Minh:20240527T213000\r\nDTEND;TZID=Asia/Ho_Chi_Minh:20240527T223000\r\nRRULE:FREQ=DAILY;INTERVAL=2\r\nDTSTAMP:20230308T144151Z\r\nUID:3ppmb89uhaucl97la660fqgtl0_R20220909T143000@google.com\r\nCREATED:20210925T170940Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20240516T114326Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Read Books\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:2279\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230308T144150Z\r\nX-EVOLUTION-CALDAV-ETAG:63848754767\r\nRECURRENCE-ID;TZID=Asia/Ho_Chi_Minh:20240527T213000\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:76ab5f060bb0797503c3e353bc89baf37d49aeee\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:-PT5M\r\nACKNOWLEDGED:20240516T114326Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n8b4ef32d02420d1aeda3c1cb265d397ca9c56e61\t20240527T203000\n1716816540\n1716816600\n1716817800\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Ho_Chi_Minh:20240527T203000\r\nDTEND;TZID=Asia/Ho_Chi_Minh:20240527T205000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230308T121939Z\r\nUID:\r\n 6lgmae35cco3cbb6cphjab9kcoqm2bb161i30b9lclgjap1n6hh66dr36s@google.com\r\nCREATED:20221015T050356Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20240505T005255Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Anki + RemNote\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1719\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230308T121938Z\r\nX-EVOLUTION-CALDAV-ETAG:63813961179\r\nRECURRENCE-ID;TZID=Asia/Ho_Chi_Minh:20240527T203000\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:8b4ef32d02420d1aeda3c1cb265d397ca9c56e61\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:-PT1M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\na22382df4c968d7f0156efc103343c044fdcef9d\t20240527\n1716811500\n1716768000\n1716854400\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240527\r\nDTEND;VALUE=DATE:20240528\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230304T055445Z\r\nUID:5tk9v79dbtjrkoeg49qiu862ih_R20220613@google.com\r\nCREATED:20210924T095658Z\r\nDESCRIPTION:Topic of the Day\r\nLAST-MODIFIED:20240525T054425Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Highlight of the day\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1033\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230304T055340Z\r\nX-EVOLUTION-CALDAV-ETAG:63813592485\r\nRECURRENCE-ID;VALUE=DATE:20240527\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT7H30M\r\nX-EVOLUTION-ALARM-UID:923f80ec9ebe913309df30379eebbc222b0144c6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:a22382df4c968d7f0156efc103343c044fdcef9d\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT12H5M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT15H\r\nACKNOWLEDGED:20240525T054425Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n923f80ec9ebe913309df30379eebbc222b0144c6\t20240527\n1716795000\n1716768000\n1716854400\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240527\r\nDTEND;VALUE=DATE:20240528\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230304T055445Z\r\nUID:5tk9v79dbtjrkoeg49qiu862ih_R20220613@google.com\r\nCREATED:20210924T095658Z\r\nDESCRIPTION:Topic of the Day\r\nLAST-MODIFIED:20240525T054425Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Highlight of the day\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1033\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230304T055340Z\r\nX-EVOLUTION-CALDAV-ETAG:63813592485\r\nRECURRENCE-ID;VALUE=DATE:20240527\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT7H30M\r\nX-EVOLUTION-ALARM-UID:923f80ec9ebe913309df30379eebbc222b0144c6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:a22382df4c968d7f0156efc103343c044fdcef9d\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT12H5M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT15H\r\nACKNOWLEDGED:20240525T054425Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n8049376f01472ecbf941615512cccd03fa4c5cec\t20240527\n1716767940\n1716768000\n1716854400\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240527\r\nDTEND;VALUE=DATE:20240528\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230411T170934Z\r\nUID:4navp4kq5ohujrrvug5p5jeq2u@google.com\r\nCREATED:20210924T095434Z\r\nDESCRIPTION:2 problems on leetcode\r\nLAST-MODIFIED:20230411T170934Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:C#\r\nTRANSP:TRANSPARENT\r\nX-MOZ-GENERATION:74\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230411T170708Z\r\nX-EVOLUTION-CALDAV-ETAG:63816916174\r\nRECURRENCE-ID;VALUE=DATE:20240527\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT1M\r\nX-EVOLUTION-ALARM-UID:8049376f01472ecbf941615512cccd03fa4c5cec\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\na9082652db1b45b68db4c4824136d82aa8075506\t20240526T232500\n1716740400\n1716740700\n1716741900\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Ho_Chi_Minh:20240526T232500\r\nDTEND;TZID=Asia/Ho_Chi_Minh:20240526T234500\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230622T171422Z\r\nUID:b05e6b0hl9200d854oam4k18kc@google.com\r\nCREATED:20210924T100002Z\r\nDESCRIPTION:<html-blob><a href="https:\r\n //popemkt.notion.site/Pre-sleep-180b571191ae462bbcf285fc51e2fe2a" \r\n id="ow683" __is_owner="true">Pre-Sleep Routine</a></html-blob>\r\nLAST-MODIFIED:20240525T054425Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Next day planning + recap\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:3692\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230622T171421Z\r\nX-EVOLUTION-CALDAV-ETAG:63823137262\r\nRECURRENCE-ID;TZID=Asia/Ho_Chi_Minh:20240526T232500\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:a9082652db1b45b68db4c4824136d82aa8075506\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:-PT5M\r\nACKNOWLEDGED:20240525T054425Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\t20240526\n1716735600\n1716681600\n1716768000\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240526\r\nDTEND;VALUE=DATE:20240527\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230304T055445Z\r\nUID:5tk9v79dbtjrkoeg49qiu862ih_R20220613@google.com\r\nCREATED:20210924T095658Z\r\nDESCRIPTION:Topic of the Day\r\nLAST-MODIFIED:20240525T054425Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Highlight of the day\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1033\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230304T055340Z\r\nX-EVOLUTION-CALDAV-ETAG:63813592485\r\nRECURRENCE-ID;VALUE=DATE:20240526\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT7H30M\r\nX-EVOLUTION-ALARM-UID:923f80ec9ebe913309df30379eebbc222b0144c6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:a22382df4c968d7f0156efc103343c044fdcef9d\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT12H5M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT15H\r\nACKNOWLEDGED:20240525T054425Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n439e4706f3462715deba6cb12c4a1bc05cf50697\t20240526T210000\n1716731940\n1716732000\n1716733200\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Ho_Chi_Minh:20240526T210000\r\nDTEND;TZID=Asia/Ho_Chi_Minh:20240526T212000\r\nRRULE:FREQ=DAILY;INTERVAL=2\r\nDTSTAMP:20230308T121205Z\r\nUID:168dulhogir247opu30aaq9ue1@google.com\r\nCREATED:20221009T155025Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20240505T005255Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Call mom\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:27\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230308T121203Z\r\nX-EVOLUTION-CALDAV-ETAG:63813960725\r\nRECURRENCE-ID;TZID=Asia/Ho_Chi_Minh:20240526T210000\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:439e4706f3462715deba6cb12c4a1bc05cf50697\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:-PT1M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n8b4ef32d02420d1aeda3c1cb265d397ca9c56e61\t20240526T203000\n1716730140\n1716730200\n1716731400\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Ho_Chi_Minh:20240526T203000\r\nDTEND;TZID=Asia/Ho_Chi_Minh:20240526T205000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230308T121939Z\r\nUID:\r\n 6lgmae35cco3cbb6cphjab9kcoqm2bb161i30b9lclgjap1n6hh66dr36s@google.com\r\nCREATED:20221015T050356Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20240505T005255Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Anki + RemNote\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1719\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230308T121938Z\r\nX-EVOLUTION-CALDAV-ETAG:63813961179\r\nRECURRENCE-ID;TZID=Asia/Ho_Chi_Minh:20240526T203000\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:8b4ef32d02420d1aeda3c1cb265d397ca9c56e61\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:-PT1M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\na22382df4c968d7f0156efc103343c044fdcef9d\t20240526\n1716725100\n1716681600\n1716768000\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240526\r\nDTEND;VALUE=DATE:20240527\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230304T055445Z\r\nUID:5tk9v79dbtjrkoeg49qiu862ih_R20220613@google.com\r\nCREATED:20210924T095658Z\r\nDESCRIPTION:Topic of the Day\r\nLAST-MODIFIED:20240525T054425Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Highlight of the day\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1033\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230304T055340Z\r\nX-EVOLUTION-CALDAV-ETAG:63813592485\r\nRECURRENCE-ID;VALUE=DATE:20240526\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT7H30M\r\nX-EVOLUTION-ALARM-UID:923f80ec9ebe913309df30379eebbc222b0144c6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:a22382df4c968d7f0156efc103343c044fdcef9d\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT12H5M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT15H\r\nACKNOWLEDGED:20240525T054425Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n923f80ec9ebe913309df30379eebbc222b0144c6\t20240526\n1716708600\n1716681600\n1716768000\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240526\r\nDTEND;VALUE=DATE:20240527\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230304T055445Z\r\nUID:5tk9v79dbtjrkoeg49qiu862ih_R20220613@google.com\r\nCREATED:20210924T095658Z\r\nDESCRIPTION:Topic of the Day\r\nLAST-MODIFIED:20240525T054425Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Highlight of the day\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1033\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230304T055340Z\r\nX-EVOLUTION-CALDAV-ETAG:63813592485\r\nRECURRENCE-ID;VALUE=DATE:20240526\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT7H30M\r\nX-EVOLUTION-ALARM-UID:923f80ec9ebe913309df30379eebbc222b0144c6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:a22382df4c968d7f0156efc103343c044fdcef9d\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT12H5M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT15H\r\nACKNOWLEDGED:20240525T054425Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n8049376f01472ecbf941615512cccd03fa4c5cec\t20240526\n1716681540\n1716681600\n1716768000\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240526\r\nDTEND;VALUE=DATE:20240527\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230411T170934Z\r\nUID:4navp4kq5ohujrrvug5p5jeq2u@google.com\r\nCREATED:20210924T095434Z\r\nDESCRIPTION:2 problems on leetcode\r\nLAST-MODIFIED:20230411T170934Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:C#\r\nTRANSP:TRANSPARENT\r\nX-MOZ-GENERATION:74\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230411T170708Z\r\nX-EVOLUTION-CALDAV-ETAG:63816916174\r\nRECURRENCE-ID;VALUE=DATE:20240526\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT1M\r\nX-EVOLUTION-ALARM-UID:8049376f01472ecbf941615512cccd03fa4c5cec\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\na9082652db1b45b68db4c4824136d82aa8075506\t20240525T232500\n1716654000\n1716654300\n1716655500\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Ho_Chi_Minh:20240525T232500\r\nDTEND;TZID=Asia/Ho_Chi_Minh:20240525T234500\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230622T171422Z\r\nUID:b05e6b0hl9200d854oam4k18kc@google.com\r\nCREATED:20210924T100002Z\r\nDESCRIPTION:<html-blob><a href="https:\r\n //popemkt.notion.site/Pre-sleep-180b571191ae462bbcf285fc51e2fe2a" \r\n id="ow683" __is_owner="true">Pre-Sleep Routine</a></html-blob>\r\nLAST-MODIFIED:20240525T054425Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Next day planning + recap\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:3692\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230622T171421Z\r\nX-EVOLUTION-CALDAV-ETAG:63823137262\r\nRECURRENCE-ID;TZID=Asia/Ho_Chi_Minh:20240525T232500\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:a9082652db1b45b68db4c4824136d82aa8075506\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:-PT5M\r\nACKNOWLEDGED:20240525T054425Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\t20240525\n1716649200\n1716595200\n1716681600\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240525\r\nDTEND;VALUE=DATE:20240526\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230304T055445Z\r\nUID:5tk9v79dbtjrkoeg49qiu862ih_R20220613@google.com\r\nCREATED:20210924T095658Z\r\nDESCRIPTION:Topic of the Day\r\nLAST-MODIFIED:20240525T054425Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Highlight of the day\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1033\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230304T055340Z\r\nX-EVOLUTION-CALDAV-ETAG:63813592485\r\nRECURRENCE-ID;VALUE=DATE:20240525\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT7H30M\r\nX-EVOLUTION-ALARM-UID:923f80ec9ebe913309df30379eebbc222b0144c6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:a22382df4c968d7f0156efc103343c044fdcef9d\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT12H5M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT15H\r\nACKNOWLEDGED:20240525T054425Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n76ab5f060bb0797503c3e353bc89baf37d49aeee\t20240525T213000\n1716647100\n1716647400\n1716651000\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Ho_Chi_Minh:20240525T213000\r\nDTEND;TZID=Asia/Ho_Chi_Minh:20240525T223000\r\nRRULE:FREQ=DAILY;INTERVAL=2\r\nDTSTAMP:20230308T144151Z\r\nUID:3ppmb89uhaucl97la660fqgtl0_R20220909T143000@google.com\r\nCREATED:20210925T170940Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20240516T114326Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Read Books\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:2279\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230308T144150Z\r\nX-EVOLUTION-CALDAV-ETAG:63848754767\r\nRECURRENCE-ID;TZID=Asia/Ho_Chi_Minh:20240525T213000\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:76ab5f060bb0797503c3e353bc89baf37d49aeee\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:-PT5M\r\nACKNOWLEDGED:20240516T114326Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n8b4ef32d02420d1aeda3c1cb265d397ca9c56e61\t20240525T203000\n1716643740\n1716643800\n1716645000\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Ho_Chi_Minh:20240525T203000\r\nDTEND;TZID=Asia/Ho_Chi_Minh:20240525T205000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230308T121939Z\r\nUID:\r\n 6lgmae35cco3cbb6cphjab9kcoqm2bb161i30b9lclgjap1n6hh66dr36s@google.com\r\nCREATED:20221015T050356Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20240505T005255Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Anki + RemNote\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1719\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230308T121938Z\r\nX-EVOLUTION-CALDAV-ETAG:63813961179\r\nRECURRENCE-ID;TZID=Asia/Ho_Chi_Minh:20240525T203000\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:8b4ef32d02420d1aeda3c1cb265d397ca9c56e61\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:-PT1M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\na22382df4c968d7f0156efc103343c044fdcef9d\t20240525\n1716638700\n1716595200\n1716681600\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240525\r\nDTEND;VALUE=DATE:20240526\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230304T055445Z\r\nUID:5tk9v79dbtjrkoeg49qiu862ih_R20220613@google.com\r\nCREATED:20210924T095658Z\r\nDESCRIPTION:Topic of the Day\r\nLAST-MODIFIED:20240525T054425Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Highlight of the day\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1033\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230304T055340Z\r\nX-EVOLUTION-CALDAV-ETAG:63813592485\r\nRECURRENCE-ID;VALUE=DATE:20240525\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT7H30M\r\nX-EVOLUTION-ALARM-UID:923f80ec9ebe913309df30379eebbc222b0144c6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:a22382df4c968d7f0156efc103343c044fdcef9d\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT12H5M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT15H\r\nACKNOWLEDGED:20240525T054425Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n923f80ec9ebe913309df30379eebbc222b0144c6\t20240525\n1716622200\n1716595200\n1716681600\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240525\r\nDTEND;VALUE=DATE:20240526\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230304T055445Z\r\nUID:5tk9v79dbtjrkoeg49qiu862ih_R20220613@google.com\r\nCREATED:20210924T095658Z\r\nDESCRIPTION:Topic of the Day\r\nLAST-MODIFIED:20240525T054425Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Highlight of the day\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1033\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230304T055340Z\r\nX-EVOLUTION-CALDAV-ETAG:63813592485\r\nRECURRENCE-ID;VALUE=DATE:20240525\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT7H30M\r\nX-EVOLUTION-ALARM-UID:923f80ec9ebe913309df30379eebbc222b0144c6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:a22382df4c968d7f0156efc103343c044fdcef9d\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT12H5M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT15H\r\nACKNOWLEDGED:20240525T054425Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n8049376f01472ecbf941615512cccd03fa4c5cec\t20240525\n1716595140\n1716595200\n1716681600\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240525\r\nDTEND;VALUE=DATE:20240526\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230411T170934Z\r\nUID:4navp4kq5ohujrrvug5p5jeq2u@google.com\r\nCREATED:20210924T095434Z\r\nDESCRIPTION:2 problems on leetcode\r\nLAST-MODIFIED:20230411T170934Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:C#\r\nTRANSP:TRANSPARENT\r\nX-MOZ-GENERATION:74\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230411T170708Z\r\nX-EVOLUTION-CALDAV-ETAG:63816916174\r\nRECURRENCE-ID;VALUE=DATE:20240525\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT1M\r\nX-EVOLUTION-ALARM-UID:8049376f01472ecbf941615512cccd03fa4c5cec\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n439e4706f3462715deba6cb12c4a1bc05cf50697\t20240524T210000\n1716559140\n1716559200\n1716560400\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Ho_Chi_Minh:20240524T210000\r\nDTEND;TZID=Asia/Ho_Chi_Minh:20240524T212000\r\nRRULE:FREQ=DAILY;INTERVAL=2\r\nDTSTAMP:20230308T121205Z\r\nUID:168dulhogir247opu30aaq9ue1@google.com\r\nCREATED:20221009T155025Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20240505T005255Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Call mom\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:27\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230308T121203Z\r\nX-EVOLUTION-CALDAV-ETAG:63813960725\r\nRECURRENCE-ID;TZID=Asia/Ho_Chi_Minh:20240524T210000\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:439e4706f3462715deba6cb12c4a1bc05cf50697\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:-PT1M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n8b4ef32d02420d1aeda3c1cb265d397ca9c56e61\t20240524T203000\n1716557340\n1716557400\n1716558600\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Ho_Chi_Minh:20240524T203000\r\nDTEND;TZID=Asia/Ho_Chi_Minh:20240524T205000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230308T121939Z\r\nUID:\r\n 6lgmae35cco3cbb6cphjab9kcoqm2bb161i30b9lclgjap1n6hh66dr36s@google.com\r\nCREATED:20221015T050356Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20240505T005255Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Anki + RemNote\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1719\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230308T121938Z\r\nX-EVOLUTION-CALDAV-ETAG:63813961179\r\nRECURRENCE-ID;TZID=Asia/Ho_Chi_Minh:20240524T203000\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:8b4ef32d02420d1aeda3c1cb265d397ca9c56e61\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:-PT1M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n19615f07eaf25b4c214608d6aae4391a6383e6cb\t20240524T193000\n1716553500\n1716553800\n1716556500\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Ho_Chi_Minh:20240524T193000\r\nDTEND;TZID=Asia/Ho_Chi_Minh:20240524T201500\r\nRRULE:FREQ=WEEKLY;BYDAY=FR\r\nDTSTAMP:20240330T093918Z\r\nUID:0d5ieqtgkt9grjo5q2n07cpqnr_R20220909T123000@google.com\r\nCREATED:20220613T032535Z\r\nDESCRIPTION:Get more artworks on these platforms<br><a target="_blank" \r\n rel="noopener noreferrer nofollow" href="https:\r\n //www.artstation.com/">ArtStation - Explore</a><br><a target="_blank" \r\n rel="noopener noreferrer nofollow" href="https:\r\n //www.ggac.com/v2/home">GGAC-CG</a><br><a target="_blank" rel="noopener \r\n noreferrer nofollow" href="https://www.pixiv.net/en/">pixiv</a><br><a \r\n target="_blank" rel="noopener noreferrer nofollow" href="http:\r\n //yande.re">yande.re</a>\r\nLAST-MODIFIED:20240330T093918Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Topic of the Day: Arts\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:72\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20231013T122503Z\r\nX-EVOLUTION-CALDAV-ETAG:63847545878\r\nRECURRENCE-ID;TZID=Asia/Ho_Chi_Minh:20240524T193000\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT5M\r\nX-EVOLUTION-ALARM-UID:19615f07eaf25b4c214608d6aae4391a6383e6cb\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\na22382df4c968d7f0156efc103343c044fdcef9d\t20240524\n1716552300\n1716508800\n1716595200\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240524\r\nDTEND;VALUE=DATE:20240525\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230304T055445Z\r\nUID:5tk9v79dbtjrkoeg49qiu862ih_R20220613@google.com\r\nCREATED:20210924T095658Z\r\nDESCRIPTION:Topic of the Day\r\nLAST-MODIFIED:20240516T114326Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Highlight of the day\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1033\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230304T055340Z\r\nX-EVOLUTION-CALDAV-ETAG:63813592485\r\nRECURRENCE-ID;VALUE=DATE:20240524\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT7H30M\r\nX-EVOLUTION-ALARM-UID:923f80ec9ebe913309df30379eebbc222b0144c6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:a22382df4c968d7f0156efc103343c044fdcef9d\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT12H5M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT15H\r\nACKNOWLEDGED:20240516T114326Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n923f80ec9ebe913309df30379eebbc222b0144c6\t20240524\n1716535800\n1716508800\n1716595200\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240524\r\nDTEND;VALUE=DATE:20240525\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230304T055445Z\r\nUID:5tk9v79dbtjrkoeg49qiu862ih_R20220613@google.com\r\nCREATED:20210924T095658Z\r\nDESCRIPTION:Topic of the Day\r\nLAST-MODIFIED:20240516T114326Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Highlight of the day\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1033\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230304T055340Z\r\nX-EVOLUTION-CALDAV-ETAG:63813592485\r\nRECURRENCE-ID;VALUE=DATE:20240524\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT7H30M\r\nX-EVOLUTION-ALARM-UID:923f80ec9ebe913309df30379eebbc222b0144c6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:a22382df4c968d7f0156efc103343c044fdcef9d\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT12H5M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT15H\r\nACKNOWLEDGED:20240516T114326Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n8049376f01472ecbf941615512cccd03fa4c5cec\t20240524\n1716508740\n1716508800\n1716595200\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240524\r\nDTEND;VALUE=DATE:20240525\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230411T170934Z\r\nUID:4navp4kq5ohujrrvug5p5jeq2u@google.com\r\nCREATED:20210924T095434Z\r\nDESCRIPTION:2 problems on leetcode\r\nLAST-MODIFIED:20230411T170934Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:C#\r\nTRANSP:TRANSPARENT\r\nX-MOZ-GENERATION:74\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230411T170708Z\r\nX-EVOLUTION-CALDAV-ETAG:63816916174\r\nRECURRENCE-ID;VALUE=DATE:20240524\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT1M\r\nX-EVOLUTION-ALARM-UID:8049376f01472ecbf941615512cccd03fa4c5cec\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\t20240523\n1716476400\n1716422400\n1716508800\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240523\r\nDTEND;VALUE=DATE:20240524\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230304T055445Z\r\nUID:5tk9v79dbtjrkoeg49qiu862ih_R20220613@google.com\r\nCREATED:20210924T095658Z\r\nDESCRIPTION:Topic of the Day\r\nLAST-MODIFIED:20240516T114326Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Highlight of the day\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1033\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230304T055340Z\r\nX-EVOLUTION-CALDAV-ETAG:63813592485\r\nRECURRENCE-ID;VALUE=DATE:20240523\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT7H30M\r\nX-EVOLUTION-ALARM-UID:923f80ec9ebe913309df30379eebbc222b0144c6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:a22382df4c968d7f0156efc103343c044fdcef9d\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT12H5M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT15H\r\nACKNOWLEDGED:20240516T114326Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n76ab5f060bb0797503c3e353bc89baf37d49aeee\t20240523T213000\n1716474300\n1716474600\n1716478200\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Ho_Chi_Minh:20240523T213000\r\nDTEND;TZID=Asia/Ho_Chi_Minh:20240523T223000\r\nRRULE:FREQ=DAILY;INTERVAL=2\r\nDTSTAMP:20230308T144151Z\r\nUID:3ppmb89uhaucl97la660fqgtl0_R20220909T143000@google.com\r\nCREATED:20210925T170940Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20240516T114326Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Read Books\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:2279\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230308T144150Z\r\nX-EVOLUTION-CALDAV-ETAG:63848754767\r\nRECURRENCE-ID;TZID=Asia/Ho_Chi_Minh:20240523T213000\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:76ab5f060bb0797503c3e353bc89baf37d49aeee\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:-PT5M\r\nACKNOWLEDGED:20240516T114326Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n8b4ef32d02420d1aeda3c1cb265d397ca9c56e61\t20240523T203000\n1716470940\n1716471000\n1716472200\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Ho_Chi_Minh:20240523T203000\r\nDTEND;TZID=Asia/Ho_Chi_Minh:20240523T205000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230308T121939Z\r\nUID:\r\n 6lgmae35cco3cbb6cphjab9kcoqm2bb161i30b9lclgjap1n6hh66dr36s@google.com\r\nCREATED:20221015T050356Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20240505T005255Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Anki + RemNote\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1719\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230308T121938Z\r\nX-EVOLUTION-CALDAV-ETAG:63813961179\r\nRECURRENCE-ID;TZID=Asia/Ho_Chi_Minh:20240523T203000\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:8b4ef32d02420d1aeda3c1cb265d397ca9c56e61\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:-PT1M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\ncba5aef4d0474f60d29952109642c7362ca2129f\t20240523T193000\n1716467100\n1716467400\n1716470100\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Ho_Chi_Minh:20240523T193000\r\nDTEND;TZID=Asia/Ho_Chi_Minh:20240523T201500\r\nRRULE:FREQ=WEEKLY;BYDAY=TH\r\nDTSTAMP:20240426T042928Z\r\nUID:3er88jdhceaph2cmkik0uidls4_R20220908T123000@google.com\r\nCREATED:20220613T032504Z\r\nDESCRIPTION:<a href="https:\r\n //popemkt.notion.site/HotD-Comics-bfb1f541ea98493880b9ed00ad3c985f" \r\n id="ow1027" __is_owner="true">Comics</a>\r\nLAST-MODIFIED:20240426T042928Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Topic of the Day: Comics\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:2270\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230413T123802Z\r\nX-EVOLUTION-CALDAV-ETAG:63849788968\r\nRECURRENCE-ID;TZID=Asia/Ho_Chi_Minh:20240523T193000\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT5M\r\nX-EVOLUTION-ALARM-UID:cba5aef4d0474f60d29952109642c7362ca2129f\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\na22382df4c968d7f0156efc103343c044fdcef9d\t20240523\n1716465900\n1716422400\n1716508800\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240523\r\nDTEND;VALUE=DATE:20240524\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230304T055445Z\r\nUID:5tk9v79dbtjrkoeg49qiu862ih_R20220613@google.com\r\nCREATED:20210924T095658Z\r\nDESCRIPTION:Topic of the Day\r\nLAST-MODIFIED:20240516T114326Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Highlight of the day\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1033\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230304T055340Z\r\nX-EVOLUTION-CALDAV-ETAG:63813592485\r\nRECURRENCE-ID;VALUE=DATE:20240523\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT7H30M\r\nX-EVOLUTION-ALARM-UID:923f80ec9ebe913309df30379eebbc222b0144c6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:a22382df4c968d7f0156efc103343c044fdcef9d\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT12H5M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT15H\r\nACKNOWLEDGED:20240516T114326Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n923f80ec9ebe913309df30379eebbc222b0144c6\t20240523\n1716449400\n1716422400\n1716508800\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240523\r\nDTEND;VALUE=DATE:20240524\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230304T055445Z\r\nUID:5tk9v79dbtjrkoeg49qiu862ih_R20220613@google.com\r\nCREATED:20210924T095658Z\r\nDESCRIPTION:Topic of the Day\r\nLAST-MODIFIED:20240516T114326Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Highlight of the day\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1033\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230304T055340Z\r\nX-EVOLUTION-CALDAV-ETAG:63813592485\r\nRECURRENCE-ID;VALUE=DATE:20240523\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT7H30M\r\nX-EVOLUTION-ALARM-UID:923f80ec9ebe913309df30379eebbc222b0144c6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:a22382df4c968d7f0156efc103343c044fdcef9d\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT12H5M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT15H\r\nACKNOWLEDGED:20240516T114326Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n8049376f01472ecbf941615512cccd03fa4c5cec\t20240523\n1716422340\n1716422400\n1716508800\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240523\r\nDTEND;VALUE=DATE:20240524\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230411T170934Z\r\nUID:4navp4kq5ohujrrvug5p5jeq2u@google.com\r\nCREATED:20210924T095434Z\r\nDESCRIPTION:2 problems on leetcode\r\nLAST-MODIFIED:20230411T170934Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:C#\r\nTRANSP:TRANSPARENT\r\nX-MOZ-GENERATION:74\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230411T170708Z\r\nX-EVOLUTION-CALDAV-ETAG:63816916174\r\nRECURRENCE-ID;VALUE=DATE:20240523\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT1M\r\nX-EVOLUTION-ALARM-UID:8049376f01472ecbf941615512cccd03fa4c5cec\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\na9082652db1b45b68db4c4824136d82aa8075506\t20240522T232500\n1716394800\n1716395100\n1716396300\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Ho_Chi_Minh:20240522T232500\r\nDTEND;TZID=Asia/Ho_Chi_Minh:20240522T234500\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230622T171422Z\r\nUID:b05e6b0hl9200d854oam4k18kc@google.com\r\nCREATED:20210924T100002Z\r\nDESCRIPTION:<html-blob><a href="https:\r\n //popemkt.notion.site/Pre-sleep-180b571191ae462bbcf285fc51e2fe2a" \r\n id="ow683" __is_owner="true">Pre-Sleep Routine</a></html-blob>\r\nLAST-MODIFIED:20240519T024640Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Next day planning + recap\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:3692\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230622T171421Z\r\nX-EVOLUTION-CALDAV-ETAG:63823137262\r\nRECURRENCE-ID;TZID=Asia/Ho_Chi_Minh:20240522T232500\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:a9082652db1b45b68db4c4824136d82aa8075506\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:-PT5M\r\nACKNOWLEDGED:20240519T024640Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\t20240522\n1716390000\n1716336000\n1716422400\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240522\r\nDTEND;VALUE=DATE:20240523\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230304T055445Z\r\nUID:5tk9v79dbtjrkoeg49qiu862ih_R20220613@google.com\r\nCREATED:20210924T095658Z\r\nDESCRIPTION:Topic of the Day\r\nLAST-MODIFIED:20240516T114326Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Highlight of the day\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1033\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230304T055340Z\r\nX-EVOLUTION-CALDAV-ETAG:63813592485\r\nRECURRENCE-ID;VALUE=DATE:20240522\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT7H30M\r\nX-EVOLUTION-ALARM-UID:923f80ec9ebe913309df30379eebbc222b0144c6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:a22382df4c968d7f0156efc103343c044fdcef9d\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT12H5M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT15H\r\nACKNOWLEDGED:20240516T114326Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n439e4706f3462715deba6cb12c4a1bc05cf50697\t20240522T210000\n1716386340\n1716386400\n1716387600\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Ho_Chi_Minh:20240522T210000\r\nDTEND;TZID=Asia/Ho_Chi_Minh:20240522T212000\r\nRRULE:FREQ=DAILY;INTERVAL=2\r\nDTSTAMP:20230308T121205Z\r\nUID:168dulhogir247opu30aaq9ue1@google.com\r\nCREATED:20221009T155025Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20240505T005255Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Call mom\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:27\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230308T121203Z\r\nX-EVOLUTION-CALDAV-ETAG:63813960725\r\nRECURRENCE-ID;TZID=Asia/Ho_Chi_Minh:20240522T210000\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:439e4706f3462715deba6cb12c4a1bc05cf50697\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:-PT1M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n8b4ef32d02420d1aeda3c1cb265d397ca9c56e61\t20240522T203000\n1716384540\n1716384600\n1716385800\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Ho_Chi_Minh:20240522T203000\r\nDTEND;TZID=Asia/Ho_Chi_Minh:20240522T205000\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230308T121939Z\r\nUID:\r\n 6lgmae35cco3cbb6cphjab9kcoqm2bb161i30b9lclgjap1n6hh66dr36s@google.com\r\nCREATED:20221015T050356Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20240505T005255Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Anki + RemNote\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1719\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230308T121938Z\r\nX-EVOLUTION-CALDAV-ETAG:63813961179\r\nRECURRENCE-ID;TZID=Asia/Ho_Chi_Minh:20240522T203000\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:8b4ef32d02420d1aeda3c1cb265d397ca9c56e61\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:-PT1M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\nb297c50abfe8b43323ac61159c01c5395570c2c8\t20240522T193000\n1716380940\n1716381000\n1716383700\nBEGIN:VEVENT\r\nDTSTART;TZID=Asia/Ho_Chi_Minh:20240522T193000\r\nDTEND;TZID=Asia/Ho_Chi_Minh:20240522T201500\r\nRRULE:FREQ=WEEKLY;BYDAY=WE\r\nDTSTAMP:20240329T114657Z\r\nUID:1i3mktdoj01ornlhq3dsi48mph_R20220706T123000@google.com\r\nCREATED:20220613T032354Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20240329T114657Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Topic of the Day: Socio\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:13\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230308T123209Z\r\nX-EVOLUTION-CALDAV-ETAG:63847396017\r\nRECURRENCE-ID;TZID=Asia/Ho_Chi_Minh:20240522T193000\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT1M\r\nX-EVOLUTION-ALARM-UID:b297c50abfe8b43323ac61159c01c5395570c2c8\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\na22382df4c968d7f0156efc103343c044fdcef9d\t20240522\n1716379500\n1716336000\n1716422400\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240522\r\nDTEND;VALUE=DATE:20240523\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230304T055445Z\r\nUID:5tk9v79dbtjrkoeg49qiu862ih_R20220613@google.com\r\nCREATED:20210924T095658Z\r\nDESCRIPTION:Topic of the Day\r\nLAST-MODIFIED:20240516T114326Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Highlight of the day\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1033\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230304T055340Z\r\nX-EVOLUTION-CALDAV-ETAG:63813592485\r\nRECURRENCE-ID;VALUE=DATE:20240522\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT7H30M\r\nX-EVOLUTION-ALARM-UID:923f80ec9ebe913309df30379eebbc222b0144c6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:a22382df4c968d7f0156efc103343c044fdcef9d\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT12H5M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT15H\r\nACKNOWLEDGED:20240516T114326Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n923f80ec9ebe913309df30379eebbc222b0144c6\t20240522\n1716363000\n1716336000\n1716422400\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240522\r\nDTEND;VALUE=DATE:20240523\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230304T055445Z\r\nUID:5tk9v79dbtjrkoeg49qiu862ih_R20220613@google.com\r\nCREATED:20210924T095658Z\r\nDESCRIPTION:Topic of the Day\r\nLAST-MODIFIED:20240516T114326Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Highlight of the day\r\nTRANSP:OPAQUE\r\nX-MOZ-GENERATION:1033\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230304T055340Z\r\nX-EVOLUTION-CALDAV-ETAG:63813592485\r\nRECURRENCE-ID;VALUE=DATE:20240522\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT7H30M\r\nX-EVOLUTION-ALARM-UID:923f80ec9ebe913309df30379eebbc222b0144c6\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:a22382df4c968d7f0156efc103343c044fdcef9d\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT12H5M\r\nACKNOWLEDGED:20240505T005255Z\r\nEND:VALARM\r\nBEGIN:VALARM\r\nX-EVOLUTION-ALARM-UID:69479bb94c2328c2df164a3b84f7d2c9f7e39d5c\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER;RELATED=START:PT15H\r\nACKNOWLEDGED:20240516T114326Z\r\nEND:VALARM\r\nEND:VEVENT\r\n', '8240689dc89e68b58961b80289f88917260d2fad\n8049376f01472ecbf941615512cccd03fa4c5cec\t20240522\n1716335940\n1716336000\n1716422400\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20240522\r\nDTEND;VALUE=DATE:20240523\r\nRRULE:FREQ=DAILY\r\nDTSTAMP:20230411T170934Z\r\nUID:4navp4kq5ohujrrvug5p5jeq2u@google.com\r\nCREATED:20210924T095434Z\r\nDESCRIPTION:2 problems on leetcode\r\nLAST-MODIFIED:20230411T170934Z\r\nLOCATION:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:C#\r\nTRANSP:TRANSPARENT\r\nX-MOZ-GENERATION:74\r\nX-MOZ-GOOGLE-HTML-DESCRIPTION:true\r\nX-MOZ-LASTACK:20230411T170708Z\r\nX-EVOLUTION-CALDAV-ETAG:63816916174\r\nRECURRENCE-ID;VALUE=DATE:20240522\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT1M\r\nX-EVOLUTION-ALARM-UID:8049376f01472ecbf941615512cccd03fa4c5cec\r\nEND:VALARM\r\nEND:VEVENT\r\n']
+
+[org/gnome/gnome-system-monitor]
+current-tab='processes'
+maximized=true
+network-total-in-bits=false
+show-dependencies=true
+show-whose-processes='user'
+update-interval=1000
+window-state=(3440, 1440, 0, 0)
+
+[org/gnome/gnome-system-monitor/disktreenew]
+col-6-visible=true
+col-6-width=0
+
+[org/gnome/gnome-system-monitor/openfilestree]
+sort-col=0
+sort-order=0
+
+[org/gnome/login-screen]
+enable-fingerprint-authentication=true
+enable-smartcard-authentication=false
+
+[org/gnome/nautilus/icon-view]
+default-zoom-level='extra-large'
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='list-view'
+migrated-gtk-settings=true
+search-filter-time-type='last_modified'
+search-view='list-view'
+
+[org/gnome/nautilus/window-state]
+initial-size=(1280, 686)
+maximized=true
+
+[org/gnome/nm-applet/eap/9e0c4d9a-98af-46a8-93f7-f3e56070f4e4]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/a17ba797-cab2-490d-834f-90d9136ff44a]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/ee704871-2eed-4543-9a6b-427813c39a29]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/fdcf4ce1-24e8-4f28-850b-b4b057340566]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/photos]
+window-maximized=true
+
+[org/gnome/portal/filechooser/chrome-hcggeifnejlmamllipafdhamanebkbgk-Profile_3]
+last-folder-path='/home/popemkt/Downloads'
+
+[org/gnome/portal/filechooser/com.heroicgameslauncher.hgl]
+last-folder-path='/home/popemkt/Games/Heroic/Prefixes/default/Control/drive_c/users/popemkt/AppData/Local/Remedy/Control'
+
+[org/gnome/portal/filechooser/com.valvesoftware.Steam]
+last-folder-path='/stuff/Games/Linux/Lutris/Little Nightmares/Atlas'
+
+[org/gnome/portal/filechooser/microsoft-edge-beta]
+last-folder-path='/home/popemkt/Downloads'
+
+[org/gnome/portal/filechooser/msedge-fcihfelaaldlnndgdpikildeaibblbpm-Default]
+last-folder-path='/stuff/WorkSpace/HarpaAI/beta_builds/harpa-8.0.22'
+
+[org/gnome/portal/filechooser/net.lutris.Lutris]
+last-folder-path='/stuff/Games/Linux/Lutris/Base'
+
+[org/gnome/portal/filechooser/net.werwolv.ImHex]
+last-folder-path='/stuff/SteamLinux/steamapps/common/Cocoon'
+
+[org/gnome/portal/filechooser/org.bunkus.mkvtoolnix-gui]
+last-folder-path='/stuff/Downloads/test'
+
+[org/gnome/portal/filechooser/org.kde.ktorrent]
+last-folder-path='/stuff/Games/HFW'
+
+[org/gnome/portal/filechooser/proc-respawn]
+last-folder-path='/home/popemkt/Pictures/Screenshots'
+
+[org/gnome/portal/filechooser/thorium-browser]
+last-folder-path='/home/popemkt/Downloads'
+
+[org/gnome/portal/filechooser/webcatalog-readwise]
+last-folder-path='/stuff/Downloads'
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-enabled=true
+night-light-last-coordinates=(10.824227481296319, 106.6581)
+night-light-schedule-automatic=false
 
 [org/gnome/settings-daemon/plugins/media-keys]
 custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/']
+search=['<Super>s']
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
 binding='<Super>e'
 command='nautilus'
 name='Nautilus'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+command='guake'
+name='Guake'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
 binding='<Super>v'
@@ -66,9 +565,15 @@ name='Ctr+Shift+Esc'
 sleep-inactive-ac-type='nothing'
 
 [org/gnome/shell]
-command-history=['r', 'lg']
+app-picker-layout=[{'anki.desktop': <{'position': <0>}>, 'org.gnome.Contacts.desktop': <{'position': <1>}>, 'org.gnome.Weather.desktop': <{'position': <2>}>, 'org.gnome.clocks.desktop': <{'position': <3>}>, 'org.gnome.Maps.desktop': <{'position': <4>}>, 'appimagelaunchersettings.desktop': <{'position': <5>}>, 'org.gnome.Photos.desktop': <{'position': <6>}>, 'org.gnome.Totem.desktop': <{'position': <7>}>, 'org.gnome.Calculator.desktop': <{'position': <8>}>, 'org.kde.ark.desktop': <{'position': <9>}>, 'simple-scan.desktop': <{'position': <10>}>, 'org.gnome.Settings.desktop': <{'position': <11>}>, 'gnome-system-monitor.desktop': <{'position': <12>}>, 'org.gnome.Boxes.desktop': <{'position': <13>}>, 'org.gnome.Terminal.desktop': <{'position': <14>}>, 'Utilities': <{'position': <15>}>, 'com.ulduzsoft.Birdtray.desktop': <{'position': <16>}>, 'yelp.desktop': <{'position': <17>}>, 'com.github.hluk.copyq.desktop': <{'position': <18>}>, 'org.gnome.Cheese.desktop': <{'position': <19>}>, 'ca.desrt.dconf-editor.desktop': <{'position': <20>}>, 'com.discordapp.Discord.desktop': <{'position': <21>}>, 'docker-desktop.desktop': <{'position': <22>}>, 'com.mattjakeman.ExtensionManager.desktop': <{'position': <23>}>}, {'org.fedoraproject.MediaWriter.desktop': <{'position': <0>}>, 'firefox.desktop': <{'position': <1>}>, 'com.github.tchx84.Flatseal.desktop': <{'position': <2>}>, 'google-chrome-beta.desktop': <{'position': <3>}>, 'guake-prefs.desktop': <{'position': <4>}>, 'guake.desktop': <{'position': <5>}>, 'com.heroicgameslauncher.hgl.desktop': <{'position': <6>}>, 'jetbrains-toolbox.desktop': <{'position': <7>}>, 'appimagekit_d66d27fad44ca521ddf30dd0608b5317-keeweb.desktop': <{'position': <8>}>, 'org.kde.ktorrent.desktop': <{'position': <9>}>, 'net.lutris.league-of-legends-1.desktop': <{'position': <10>}>, 'libreoffice-calc.desktop': <{'position': <11>}>, 'libreoffice-impress.desktop': <{'position': <12>}>, 'libreoffice-writer.desktop': <{'position': <13>}>, 'appimagekit_ef7089212d5a073d3a16f138d483e51d-LM_Studio.desktop': <{'position': <14>}>, 'net.lutris.Lutris.desktop': <{'position': <15>}>, 'io.github.ripose_jp.Memento.desktop': <{'position': <16>}>, 'com.microsoft.Edge.desktop': <{'position': <17>}>, 'microsoft-edge-dev.desktop': <{'position': <18>}>, 'org.bunkus.mkvtoolnix-gui.desktop': <{'position': <19>}>, 'io.mpv.Mpv.desktop': <{'position': <20>}>, 'mpv.desktop': <{'position': <21>}>, 'appimagekit_29c4a64ceac4350c48641f59269970fb-OpenLens.desktop': <{'position': <22>}>, 'appimagekit_4aa265e53393e5584e47e2e2e851c12f-Pling-Store.desktop': <{'position': <23>}>}, {'qdirstat.desktop': <{'position': <0>}>, 'net.nokyan.Resources.desktop': <{'position': <1>}>, 'org.gnome.Rhythmbox3.desktop': <{'position': <2>}>, 'DataGrip-c6f9b7c6-89a6-4023-a5de-571facb0f1bb.desktop': <{'position': <3>}>, 'org.kde.dolphin.desktop': <{'position': <4>}>, 'info.smplayer.SMPlayer.desktop': <{'position': <5>}>, 'org.gnome.Software.desktop': <{'position': <6>}>, 'solaar.desktop': <{'position': <7>}>, 'com.valvesoftware.Steam.desktop': <{'position': <8>}>, 'net.hovancik.Stretchly.desktop': <{'position': <9>}>, 'org.gnome.TextEditor.desktop': <{'position': <10>}>, 'org.gnome.Tour.desktop': <{'position': <11>}>, 'code-insiders.desktop': <{'position': <12>}>, 'appimagekit_ecbe63cea712e18941fd0e47e9d35b13-WebCatalog.desktop': <{'position': <13>}>, 'chrome-cinhimbnkkaeohfgghhklpknlkffjgod-Profile_4.desktop': <{'position': <14>}>, 'btrfs-assistant.desktop': <{'position': <15>}>, 'org.gnome.Loupe.desktop': <{'position': <16>}>, 'net.werwolv.ImHex.desktop': <{'position': <17>}>, 'thorium-browser.desktop': <{'position': <18>}>, 'piavpn.desktop': <{'position': <19>}>, 'org.pulseaudio.pavucontrol.desktop': <{'position': <20>}>, 'rog-control-center.desktop': <{'position': <21>}>, 'msedge-fcihfelaaldlnndgdpikildeaibblbpm-Default.desktop': <{'position': <22>}>, 'thorium-shell.desktop': <{'position': <23>}>}, {'com.borgbase.Vorta.desktop': <{'position': <0>}>, 'dosbox-staging.desktop': <{'position': <1>}>, 'org.gnome.FontManager.desktop': <{'position': <2>}>, 'org.fontforge.FontForge.desktop': <{'position': <3>}>, 'com.inform7.IDE.desktop': <{'position': <4>}>, 'page.codeberg.JakobDev.jdDesktopEntryEdit.desktop': <{'position': <5>}>, 'wine-notepad.desktop': <{'position': <6>}>, 'org.onlyoffice.desktopeditors.desktop': <{'position': <7>}>, 'wine-regedit.desktop': <{'position': <8>}>, 'Rider-66b38421-2c16-4323-894e-fdd706aa4ac3.desktop': <{'position': <9>}>, 'RustRover-26fef78b-5fa4-45f9-872b-0dec68f57716.desktop': <{'position': <10>}>, 'appimagekit_4e081635d715ee3e5dc9ac3bc33f324d-SiYuan.desktop': <{'position': <11>}>, 'wine-wineboot.desktop': <{'position': <12>}>, 'wine-winecfg.desktop': <{'position': <13>}>, 'wine-winefile.desktop': <{'position': <14>}>, 'wine-winhelp.desktop': <{'position': <15>}>, 'wine-oleview.desktop': <{'position': <16>}>, 'wine-uninstaller.desktop': <{'position': <17>}>, 'wine-wordpad.desktop': <{'position': <18>}>, 'wine-winemine.desktop': <{'position': <19>}>}]
+command-history=['r', 'lig', 'lg']
 disable-user-extensions=false
-enabled-extensions=['impatience@gfxmonk.net', 'hidetopbar@mathieu.bidon.ca', 'blur-my-shell@aunetx', 'focus-window@chris.al', 'desk-changer@eric.gach.gmail.com', 'middleclickclose@paolo.tranquilli.gmail.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'customize-ibus@hollowman.ml', 'just-perfection-desktop@just-perfection', 'cronomix@zagortenay333', 'simple-timer@majortomvr.github.com', 'rounded-window-corners@yilozt', 'advanced-alt-tab@G-dH.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'gestureImprovements@gestures', 'Vitals@CoreCoding.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'gnome-ui-tune@itstime.tech']
+disabled-extensions=['background-logo@fedorahosted.org', 'gsconnect@andyholmes.github.io']
+enabled-extensions=['impatience@gfxmonk.net', 'focus-window@chris.al', 'desk-changer@eric.gach.gmail.com', 'middleclickclose@paolo.tranquilli.gmail.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'customize-ibus@hollowman.ml', 'just-perfection-desktop@just-perfection', 'cronomix@zagortenay333', 'simple-timer@majortomvr.github.com', 'rounded-window-corners@yilozt', 'advanced-alt-tab@G-dH.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'gestureImprovements@gestures', 'Vitals@CoreCoding.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'peek-top-bar-on-fullscreen@marcinjahn.com', 'gnomebedtime@ionutbortis.gmail.com', 'gnome-ui-tune@itstime.tech', 'hidetopbar@mathieu.bidon.ca', 'nightthemeswitcher@romainvigier.fr', 'blur-my-shell@aunetx', 'user-theme-x@tuberry.github.io']
+favorite-apps=['org.gnome.Calendar.desktop', 'org.gnome.Nautilus.desktop', 'microsoft-edge-beta.desktop', 'org.mozilla.Thunderbird.desktop', 'chrome-hcggeifnejlmamllipafdhamanebkbgk-Profile_3.desktop', 'msedge-fcihfelaaldlnndgdpikildeaibblbpm-Default.desktop', 'anki.desktop', 'chatall.desktop']
+last-selected-power-profile='performance'
+looking-glass-history=['dfaf', 'exit', 'exit()']
+welcome-dialog-last-shown-version='44.0'
 
 [org/gnome/shell/extensions/advanced-alt-tab-window-switcher]
 animation-time-factor=60
@@ -96,11 +601,66 @@ win-switcher-single-prev-size=256
 [org/gnome/shell/extensions/auto-move-windows]
 application-list=['org.mozilla.Thunderbird.desktop:1', 'microsoft-edge-beta.desktop:2', 'anki.desktop:3']
 
+[org/gnome/shell/extensions/bedtime-mode]
+automatic-schedule=true
+bedtime-mode-active=false
+color-tone-preset='amber'
+schedule-end-hours=8
+schedule-start-hours=0
+
+[org/gnome/shell/extensions/blur-my-shell]
+pipelines={'pipeline_default': {'name': <'Default'>, 'effects': <[<{'type': <'native_static_gaussian_blur'>, 'id': <'effect_000000000000'>, 'params': <{'radius': <30>, 'brightness': <0.59999999999999998>}>}>]>}, 'pipeline_default_rounded': {'name': <'Default rounded'>, 'effects': <[<{'type': <'native_static_gaussian_blur'>, 'id': <'effect_000000000001'>, 'params': <{'radius': <30>, 'brightness': <0.59999999999999998>}>}>, <{'type': <'corner'>, 'id': <'effect_000000000002'>, 'params': <{'radius': <24>}>}>]>}}
+settings-version=2
+
+[org/gnome/shell/extensions/blur-my-shell/appfolder]
+brightness=0.59999999999999998
+sigma=30
+
+[org/gnome/shell/extensions/blur-my-shell/applications]
+blur=false
+
+[org/gnome/shell/extensions/blur-my-shell/dash-to-dock]
+blur=false
+brightness=0.59999999999999998
+pipeline='pipeline_default_rounded'
+sigma=30
+static-blur=true
+style-dash-to-dock=0
+
+[org/gnome/shell/extensions/blur-my-shell/hidetopbar]
+compatibility=false
+
+[org/gnome/shell/extensions/blur-my-shell/lockscreen]
+pipeline='pipeline_default'
+
+[org/gnome/shell/extensions/blur-my-shell/overview]
+pipeline='pipeline_default'
+style-components=1
+
+[org/gnome/shell/extensions/blur-my-shell/panel]
+brightness=0.59999999999999998
+force-light-text=true
+override-background=true
+override-background-dynamically=false
+pipeline='pipeline_default'
+sigma=30
+static-blur=true
+style-panel=0
+unblur-in-overview=true
+
+[org/gnome/shell/extensions/blur-my-shell/screenshot]
+pipeline='pipeline_default'
+
+[org/gnome/shell/extensions/blur-my-shell/window-list]
+brightness=0.59999999999999998
+sigma=30
+
 [org/gnome/shell/extensions/customize-ibus]
 ibus-restart-time='1704461141066'
 input-mode-list={'null': false, 'org.gnome.shell.extensions': true, 'com.mattjakeman.extensionmanager': true, 'microsoft-edge-beta': false, '': true, 'gnome-tweaks': true, 'org.gnome.settings': true, 'gkbd-keyboard-display': false, 'gnome-control-center': true, 'extension-manager': true}
 
 [org/gnome/shell/extensions/desk-changer]
+current-profile='default'
 notifications=false
 profile-state=@a{sas} {}
 profiles={'default': [('file:///stuff/Stuff/Images/Wall', true)]}
@@ -109,23 +669,93 @@ remember-profile-state=true
 rotation='thirtyminute'
 
 [org/gnome/shell/extensions/focus-window]
-app-settings=[{'id': <'lr0ed7un2mfij09i9q8'>, 'applicationToFocus': <'msedge-fcihfelaaldlnndgdpikildeaibblbpm-Default.desktop'>, 'titleToMatch': <''>, 'exactTitleMatch': <false>, 'launchApplication': <true>, 'commandLineArguments': <''>, 'keyboardShortcut': <'<Shift><Super>t'>}, {'id': <'lr0eecxrm3zchiurzdo'>, 'applicationToFocus': <'webcatalog-chatgpt.desktop'>, 'titleToMatch': <''>, 'exactTitleMatch': <false>, 'launchApplication': <true>, 'commandLineArguments': <''>, 'keyboardShortcut': <'<Shift><Super>c'>}, {'id': <'lsbzlex8ta9ukvpu87'>, 'applicationToFocus': <'thorium-browser.desktop'>, 'titleToMatch': <''>, 'exactTitleMatch': <false>, 'launchApplication': <true>, 'commandLineArguments': <''>, 'keyboardShortcut': <'<Shift><Super>j'>}]
+app-settings=[{'id': <'lr0ed7un2mfij09i9q8'>, 'applicationToFocus': <'msedge-fcihfelaaldlnndgdpikildeaibblbpm-Default.desktop'>, 'titleToMatch': <''>, 'exactTitleMatch': <true>, 'launchApplication': <true>, 'commandLineArguments': <''>, 'keyboardShortcut': <'<Shift><Super>t'>, 'moveToCurrentDesktop': <true>}, {'id': <'lta6l779j7wvbg6vu0g'>, 'applicationToFocus': <'microsoft-edge-beta.desktop'>, 'titleToMatch': <''>, 'exactTitleMatch': <false>, 'launchApplication': <true>, 'commandLineArguments': <''>, 'keyboardShortcut': <'<Shift><Super>e'>, 'moveToCurrentDesktop': <false>}, {'id': <'ltjf2j1rekzf2pc0g27'>, 'applicationToFocus': <'org.gnome.clocks.desktop'>, 'titleToMatch': <''>, 'exactTitleMatch': <false>, 'launchApplication': <true>, 'commandLineArguments': <''>, 'keyboardShortcut': <'<Shift><Super>a'>, 'moveToCurrentDesktop': <true>}, {'id': <'ltsyoaiozz56ncprjn'>, 'applicationToFocus': <'thorium-browser.desktop'>, 'titleToMatch': <''>, 'exactTitleMatch': <false>, 'launchApplication': <true>, 'moveToCurrentDesktop': <true>, 'commandLineArguments': <''>, 'keyboardShortcut': <'<Shift><Super>j'>}, {'id': <'lvcflw8pft85fjp25es'>, 'applicationToFocus': <''>, 'titleToMatch': <''>, 'exactTitleMatch': <false>, 'launchApplication': <true>, 'moveToCurrentDesktop': <true>, 'commandLineArguments': <''>, 'keyboardShortcut': <'<Super>t'>}, {'id': <'lvqqgzyk6qvomep4dxa'>, 'applicationToFocus': <'chatall.desktop'>, 'titleToMatch': <'ChatAll'>, 'exactTitleMatch': <false>, 'launchApplication': <true>, 'moveToCurrentDesktop': <true>, 'commandLineArguments': <'--trace-warnings'>, 'keyboardShortcut': <'<Shift><Super>c'>}, {'id': <'lw3l5y4hybcoja8kfbh'>, 'applicationToFocus': <'chrome-hcggeifnejlmamllipafdhamanebkbgk-Profile_3.desktop'>, 'titleToMatch': <''>, 'exactTitleMatch': <false>, 'launchApplication': <true>, 'moveToCurrentDesktop': <true>, 'commandLineArguments': <''>, 'keyboardShortcut': <'<Shift><Super>r'>}, {'id': <'lwlp9xivyf5dgi7thfi'>, 'applicationToFocus': <'webcatalog-deepl-translate.desktop'>, 'titleToMatch': <''>, 'exactTitleMatch': <false>, 'launchApplication': <true>, 'moveToCurrentDesktop': <true>, 'commandLineArguments': <''>, 'keyboardShortcut': <'<Shift><Super>g'>}]
 
 [org/gnome/shell/extensions/gestureImprovements]
 alttab-delay=100
 
 [org/gnome/shell/extensions/gnome-ui-tune]
-increase-thumbnails-size='200%'
+hide-search=false
+increase-thumbnails-size='300%'
+
+[org/gnome/shell/extensions/gsconnect]
+devices=@as []
+id='36d4b736-2302-4a0b-a1e5-60ed05417516'
+name='fedora'
+
+[org/gnome/shell/extensions/gsconnect/device/191951cf_7fb3_4c6b_9646_2977a9ffd829]
+incoming-capabilities=['kdeconnect.battery', 'kdeconnect.bigscreen.stt', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.contacts.request_all_uids_timestamps', 'kdeconnect.contacts.request_vcards_by_uid', 'kdeconnect.findmyphone.request', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.action', 'kdeconnect.notification.reply', 'kdeconnect.notification.request', 'kdeconnect.ping', 'kdeconnect.runcommand', 'kdeconnect.sftp.request', 'kdeconnect.share.request', 'kdeconnect.share.request.update', 'kdeconnect.sms.request', 'kdeconnect.sms.request_attachment', 'kdeconnect.sms.request_conversation', 'kdeconnect.sms.request_conversations', 'kdeconnect.systemvolume', 'kdeconnect.telephony.request', 'kdeconnect.telephony.request_mute']
+last-connection='lan://192.168.101.5:1716'
+name='Xiaomi 12T'
+outgoing-capabilities=['kdeconnect.battery', 'kdeconnect.bigscreen.stt', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.connectivity_report', 'kdeconnect.contacts.response_uids_timestamps', 'kdeconnect.contacts.response_vcards', 'kdeconnect.findmyphone.request', 'kdeconnect.mousepad.echo', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.request', 'kdeconnect.ping', 'kdeconnect.presenter', 'kdeconnect.runcommand.request', 'kdeconnect.sftp', 'kdeconnect.share.request', 'kdeconnect.sms.attachment_file', 'kdeconnect.sms.messages', 'kdeconnect.systemvolume.request', 'kdeconnect.telephony']
+supported-plugins=['battery', 'clipboard', 'connectivity_report', 'contacts', 'findmyphone', 'mousepad', 'mpris', 'notification', 'ping', 'presenter', 'runcommand', 'sftp', 'share', 'sms', 'systemvolume', 'telephony']
+type='phone'
+
+[org/gnome/shell/extensions/gsconnect/preferences]
+window-maximized=false
+window-size=(640, 440)
 
 [org/gnome/shell/extensions/hidetopbar]
 enable-intellihide=false
 mouse-sensitive=true
 
+[org/gnome/shell/extensions/just-perfection]
+accessibility-menu=true
+app-menu=true
+app-menu-icon=true
+dash-icon-size=0
+panel=true
+panel-in-overview=true
+ripple-box=true
+search=true
+show-apps-button=true
+startup-status=1
+theme=false
+window-demands-attention-focus=true
+window-picker-icon=true
+workspace=true
+workspaces-in-app-grid=true
+
 [org/gnome/shell/extensions/net/gfxmonk/impatience]
 speed-factor=0.56630824372759858
 
+[org/gnome/shell/extensions/nightthemeswitcher/commands]
+enabled=true
+sunrise="dconf write /org/gnome/shell/extensions/user-theme/name \"'Fluent-latest-teal-Light'\" && gsettings set org.gnome.desktop.interface cursor-theme 'Fluent-cursors' && gsettings set org.gnome.desktop.interface color-scheme prefer-light"
+sunset="dconf write /org/gnome/shell/extensions/user-theme/name \"'Fluent-latest-red-Dark'\" && gsettings set org.gnome.desktop.interface cursor-theme 'Fluent-dark-cursors' && gsettings set org.gnome.desktop.interface color-scheme prefer-dark"
+
+[org/gnome/shell/extensions/nightthemeswitcher/cursor-variants]
+day='Fluent-cursors'
+enabled=true
+night='Fluent-dark-cursors'
+
+[org/gnome/shell/extensions/nightthemeswitcher/gtk-variants]
+night='Adwaita-dark'
+
+[org/gnome/shell/extensions/nightthemeswitcher/shell-variants]
+day='fluent-new-orange-Light'
+enabled=true
+night='fluent-final-purple-Dark'
+
+[org/gnome/shell/extensions/nightthemeswitcher/time]
+location=(10.824671105519588, 106.6581)
+manual-schedule=true
+nightthemeswitcher-ondemand-keybinding=['<Shift><Super>n']
+sunrise=6.0178195457486794
+sunset=17.687870072490782
+
+[org/gnome/shell/extensions/rounded-window-corners]
+border-width=-1
+custom-rounded-corner-settings=@a{sv} {}
+global-rounded-corner-settings={'padding': <{'left': <uint32 1>, 'right': <uint32 1>, 'top': <uint32 1>, 'bottom': <uint32 1>}>, 'keep_rounded_corners': <{'maximized': <false>, 'fullscreen': <false>}>, 'border_radius': <uint32 12>, 'smoothing': <uint32 0>}
+settings-version=uint32 5
+
+[org/gnome/shell/extensions/user-theme-x]
+name='Default'
+x-autoswitch=false
+
 [org/gnome/shell/extensions/user-theme]
-name='fluent-final-green-Dark'
+name='Fluent-latest-red-Dark'
 
 [org/gnome/shell/extensions/vitals]
 hot-sensors=['__voltage_avg__', '__fan_avg__', '__temperature_avg__']
@@ -136,12 +766,23 @@ show-battery=true
 screenshot=['Print']
 show-screenshot-ui=['<Shift><Control><Alt>c']
 toggle-message-tray=@as []
+toggle-quick-settings=@as []
 
 [org/gnome/shell/world-clocks]
 locations=@av []
 
 [org/gnome/simple-scan]
 document-type='photo'
+
+[org/gnome/software]
+check-timestamp=int64 1716907103
+first-run=false
+flatpak-purge-timestamp=int64 1716907085
+install-timestamp=int64 1716556375
+packagekit-historical-updates-timestamp=uint64 1716556375
+security-timestamp=int64 1713406030594702
+update-notification-timestamp=int64 1716556425
+upgrade-notification-timestamp=int64 1714105812
 
 [org/gnome/system/location]
 enabled=true
@@ -161,6 +802,7 @@ sort-directories-first=false
 sort-order='ascending'
 type-format='category'
 view-type='grid'
+window-size=(1238, 602)
 
 [org/gtk/settings/file-chooser]
 date-format='regular'
@@ -173,3 +815,41 @@ sort-column='name'
 sort-directories-first=false
 sort-order='ascending'
 type-format='category'
+window-position=(1118, 321)
+window-size=(1203, 753)
+
+[org/virt-manager/virt-manager]
+manager-window-height=766
+manager-window-width=640
+
+[org/virt-manager/virt-manager/confirm]
+delete-storage=false
+
+[org/virt-manager/virt-manager/connections]
+autoconnect=['qemu:///system']
+uris=['qemu:///system']
+
+[org/virt-manager/virt-manager/conns/qemu:system]
+window-size=(800, 600)
+
+[org/virt-manager/virt-manager/details]
+show-toolbar=true
+
+[org/virt-manager/virt-manager/new-vm]
+graphics-type='system'
+
+[org/virt-manager/virt-manager/paths]
+image-default='/stuff/WorkSpace/k8s-learn/k8s-the-hard-way'
+
+[org/virt-manager/virt-manager/vmlist-fields]
+disk-usage=false
+network-traffic=false
+
+[org/virt-manager/virt-manager/vms/4754baed4b494b70a72676c0bbef8cfb]
+autoconnect=1
+scaling=1
+vm-window-size=(1024, 836)
+
+[org/virt-manager/virt-manager/vms/6164018e7c274018bb19baa7e35f9188]
+autoconnect=1
+scaling=1
